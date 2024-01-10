@@ -1,15 +1,10 @@
-# Pixegami Terminal Profile
+# Pixegami Terminal Profile for Fedora or rpm based distributions (Maybe?)
 
 ![terminal](./terminal_screenshot.png)
 
-This is my profile for UNIX (MacOS/Linux) terminals. For Ubuntu, I just use the default terminal
-app. For MacOS, I use [iTerm2](https://iterm2.com/).
+This is my profile for Fedora. Forked from Pixelgami's terminal-profile
 
-> In the MacOS case, I have successfully installed this theme once before, but most of the terminal commands
-> will be different. You'll just have to open the `.sh` files and figure out how to adapt it to MacOS
-> until I can prepare MacOS commands.
-
-These commands were last tested on May 2022 on Ubuntu 20.
+# Last Tested date
 
 # Prerequisites
 
@@ -17,14 +12,13 @@ For the scripts to work, I think these are the bare minimum requirements.
 
 ```bash
 # Update your software repositories.
-sudo apt-get update
-sudo apt-get upgrade
+sudo dnf upgrade
 
 # Install Git.
-sudo apt-get install -y git
+sudo dnf install -y git
 
 # Install Vim.
-sudo apt-get install -y vim
+sudo dnf install -y vim
 ```
 
 # Installation
@@ -48,6 +42,11 @@ you can run the helper script (and may need to restart after).
 
 ```bash
 ./install_terminal.sh
+```
+if the above shows error you might be in india or china which blocks certain domains. use this script then>
+
+```bash
+./alt_install_terminal.sh
 ```
 
 After this, the terminal should look a bit different, but we need to do the next step to have the
@@ -90,7 +89,7 @@ dconf dump /org/gnome/terminal/legacy/profiles:/ > gnome-terminal-profiles.dconf
 How to display terminal information (I use [Neofetch](https://github.com/dylanaraps/neofetch)).
 
 ```bash
-sudo apt-get install neofetch
+sudo dnf install neofetch
 
 # Display the profile
 # I override the colors because the default red is kinda ugly in this theme.
