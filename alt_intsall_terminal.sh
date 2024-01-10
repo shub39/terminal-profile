@@ -1,6 +1,0 @@
-# Fail on any command.
-set -eux pipefail
-
-# Install ZSH
-sudo dnf install -y git-core zsh curl
-sh -c "$(curl -fsSL https://install.ohmyz.sh)"

@@ -2,7 +2,7 @@
 
 ![terminal](./terminal_screenshot.png)
 
-This is my profile for Fedora. Forked from Pixelgami's terminal-profile
+This is my terminal profile for Fedora. Forked from Pixelgami's terminal-profile
 
 # Last Tested date
 
@@ -43,11 +43,7 @@ you can run the helper script (and may need to restart after).
 ```bash
 ./install_terminal.sh
 ```
-if the above shows error you might be in india or china which blocks certain domains. use this script then>
-
-```bash
-./alt_install_terminal.sh
-```
+If the above shows error, you might be in india or china which blocks certain domains. Try again after using a vpn
 
 After this, the terminal should look a bit different, but we need to do the next step to have the
 entire theme.
@@ -77,6 +73,7 @@ to be the Powerline one we installed earlier (required for the theme to display 
 If it looks funky after this command, then you might need to wait until the theme is updated with a
 Powerline font (the next step), and may need to also restart your machine.
 
+If the spacing in weird Disable custom fonts in terminal> preferences> Profiles> toggle custom fonts
 
 ## Notes
 
