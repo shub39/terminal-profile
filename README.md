@@ -1,4 +1,4 @@
-# Pixegami's Terminal Profile for Fedora (or rpm based distributions Maybe?)
+# Pixelgami's Terminal Profile for Fedora (or rpm based distributions Maybe?)
 
 ![terminal](./terminal_screenshot.png)
 
