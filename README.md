@@ -25,6 +25,11 @@ sudo dnf install -y vim
 # Installation
 
 ```bash
+git clone https://github.com/shub39/terminal-profile.git
+cd terminal-profile
+```
+
+```bash
 ./install_powerline.sh
 ```
 
