@@ -1,8 +1,8 @@
-# Pixelgami's Terminal Profile for Fedora (or rpm based distributions Maybe?)
+# Pixegami's Terminal Profile for Fedora (or rpm based distributions Maybe?)
 
 ![terminal](./terminal_screenshot.png)
 
-This is my terminal profile for Fedora. Forked from Pixelgami's terminal-profile
+This is my terminal profile for Fedora. Forked from Pixegami's terminal-profile
 
 # Last Tested date
 Tested on Fedora 39 Workstation on a VM
